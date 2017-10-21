@@ -1,0 +1,6 @@
+<resources>
+
+    <dimen name="border_country_padding_horizontal">20dp</dimen>
+    <dimen name="border_country_padding_vertical">5dp</dimen>
+
+</resources>

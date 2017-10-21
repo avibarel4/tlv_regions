@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layoutDirection="rtl"
+    android:background="@drawable/selector_main"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/text_area"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:textSize="14dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        tools:text="Area"
+        android:alpha="0.8"/>
+
+    <TextView
+        android:id="@+id/text_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimaryDark"
+        android:maxLines="2"
+        android:ellipsize="end"
+        tools:text="Country"/>
+
+</LinearLayout>

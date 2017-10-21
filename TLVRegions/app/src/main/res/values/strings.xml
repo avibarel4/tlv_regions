@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TLV Regions</string>
+
+    <string name="currency_format">%1$s (%2$s)</string>
+
+    <string-array name="regions">
+        <item>Africa</item>
+        <item>Americas</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>Oceania</item>
+    </string-array>
+</resources>
