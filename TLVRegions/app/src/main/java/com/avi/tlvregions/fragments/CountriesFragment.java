@@ -79,6 +79,11 @@ public class CountriesFragment extends Fragment implements IResponse<Response<Li
         super.onPause();
 
         mCountriesAdapter.setListener(null);
+
+        // make sure the progress is closed in case we close the fragment before the data returned
+        if (getActivity() instanceof MainActivity) {
+            ((MainActivity) getActivity()).toggleProgress(false);
+        }
     }
 
     @Override
